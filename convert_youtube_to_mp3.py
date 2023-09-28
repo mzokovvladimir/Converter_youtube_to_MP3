@@ -2,7 +2,7 @@
 import youtube_dl
 import sys
 
-ydl_opts = {
+ydl_opts: dict = {
     'format': 'bestaudio/best',
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
